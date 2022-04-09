@@ -1,0 +1,308 @@
+/* Laptop */
+@media (max-width: 1024px){
+  /* slider */
+  .slide-overlay h1 {
+    font-size: 55px;
+}
+.mySwiper .swiper-pagination-fraction {
+  bottom: 15px;
+  left: 87%;
+  width: 14%;
+}.mySwiper .swiper-pagination-fraction {
+  bottom: 15px;
+}
+.icon {
+  bottom: 30px;
+}
+/* about */
+.about h4 {
+  width: 28%;
+}
+.abt-box{
+  width:150px;
+  margin-right:10px;
+}
+  /* Isotope */
+  .button-group {
+    width: 48%;
+}
+/* testionial */
+.tst-box {
+  margin-top: 40px;
+}
+/* partner */
+.partner img{
+  margin-right:30px;
+}
+.staff h4 {
+  width: 37%;
+}
+/* blog */
+.prt-cnt {
+  padding: 120px 70px;
+}
+}
+
+
+
+/* Tablet */
+@media (max-width: 770px) {
+  /* nav */
+  .navbar-nav {
+    background: #1B1D21;
+}
+  /* slider */
+  .btn_style {
+    padding: 10px 29px;
+  }
+  .slide-overlay h1 {
+    font-size: 40px;
+  }
+  .icon {
+    bottom: 50px;
+  }
+  .mySwiper .swiper-pagination-fraction {
+    bottom: 30px;
+  }
+  .mySwiper .swiper-button-prev {
+    padding: 25px;
+  }
+  .mySwiper .swiper-button-next {
+    padding: 25px;
+  }
+  /* about */
+  .about h4 {
+    width: 20%;
+}
+  /*isotope */
+  .button-group {
+    width: 65%;
+  }
+  /* Testimonial */
+  .tst-vedio {
+    display: none;
+  }
+  .tst-box {
+    margin-top: 20px;
+  }
+  /* Staff */
+  .staff-name{
+    opacity: 3;
+  }
+  .staff h4 {
+    width: 20%;
+  }
+ /* slider */
+.prt-cnt {
+  padding: 80px 70px;
+}
+.pagination_pos {
+  top: 55%;
+}
+  /* footer */
+  footer h5{
+    margin-top:30px;
+  }
+  footer .logo{
+    margin-top:30px;
+  }
+  footer .news form{
+    margin-top:20px;
+  }
+  .news form button {
+    right: 8px;
+}
+}
+
+
+/* Mobile */
+@media (max-width:564px){
+/* swiper */
+.slide-overlay h1 {
+  font-size: 30px;
+}
+.myswiper {
+  height: 100vh;
+}
+.mySwiper .swiper-pagination-fraction {
+  left: 74%;
+  width: 25%;
+}
+.mySwiper .swiper-pagination-fraction {
+  bottom: 10px;
+}
+.icon {
+  bottom: 30px;
+}
+  /* About */
+  .abt-grid {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 0px;
+}
+.img-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.img-2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.img-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+  .abt-box {
+    width: 110px;
+    margin-right:10px;
+}
+.about h4 {
+  width: 35%;
+}
+.about h3 {
+  font-size: 31px;
+}
+/* staff */
+.staff-name h6 {
+  width: 135px;
+  font-size: 14px;
+  padding: 7px;
+}
+.staff-name p {
+  font-size: 13px;
+  padding: 3px 5px;
+  width: 143px;
+  line-height: 20px;
+}
+.staff h4 {
+  width: 38%;
+}
+.staff h3 {
+  font-size: 29px;
+}
+.staff-img img {
+  height: 300px;
+  width: 273px;
+}
+.staff-img {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+  place-items: center;
+}
+/* Feature */
+.feature h2 {
+  font-size: 33px;
+}
+/* Isotope */
+.button {
+  font-size: 13px;
+  padding:12px;
+}
+.button-group {
+  width: 95%;
+  margin: 50px 0px 20px 0px;
+  padding:0px;
+}
+.button-group .button {
+  margin-right: 5px;
+}
+.button::before {
+  top: 19px;
+}
+.iso h2 {
+  font-size: 33px;
+}
+.iso-img {
+  padding: 0px;
+}
+.grid h5 {
+  font-size: 15px;
+}
+.grid h6 {
+  font-size: 13px;
+}
+/* testimonial */
+.tst-box {
+  padding: 12px 15px;
+}
+/* slider */
+.myyySwiper .swiper-button-next {
+  top: 112%;
+}
+.pagination_pos {
+  top: 55%;
+  width: 90px !important;
+  height: 90px;
+  padding-top: 33px;
+  border: 6px solid #a5a5a594;
+}
+.prt-cnt {
+  padding: 55px 20px;
+}
+/* Partner */
+.partner {
+  padding: 70px 0;
+}
+.partner img {
+  width: 80px;
+  height: 50px;
+  margin-right: 80px;
+}
+.part {
+  align-items: center;
+}
+}
+@media (max-width: 375px){
+.pagination_pos {
+    top: 53%;
+}
+.tst-slide p {
+  padding: 8px 0;
+}
+}
+
+/* Small Phone */
+@media (max-width: 320px){
+  /* slider */
+  .mySwiper .swiper-pagination-fraction {
+    left: 71%;
+    width: 30%;
+}
+.mySwiper .swiper-button-next {
+  padding: 20px;
+}
+.mySwiper .swiper-button-prev {
+  padding: 20px;
+}
+/* about */
+.about h4 {
+  width: 41%;
+}
+.about h3 {
+  font-size: 26px;
+}
+.abt-box {
+  width: 95px;
+  margin-right: 0px;
+}
+.abt-box h6 {
+  font-size: 13px;
+}
+.button {
+  font-size: 12px;
+  padding: 9px;
+}
+.button::before {
+  background: #222222;
+}
+  .pagination_pos {
+      top: 50%;
+  }
+  }
